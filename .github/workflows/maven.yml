@@ -10,6 +10,6 @@ jobs:
   build:
     runs-on: "ubuntu-24.04"
     steps:
-      - uses: actions/checkout@v4        #to checkout out repo code into runner env for steps to access it
+      - uses: actions/checkout@v4        #to checkout our repo code into runner env for steps to access it
       - name: "run maven package"
         run: mvn package
